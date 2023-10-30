@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"/>
+    <ImageView
+        android:src="@drawable/ic_sweat_face"
+        android:id="@+id/result_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/result_image"/>
+    <TextView android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/result_message_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/good_result"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/result_score_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/score"/>
+    <Button
+        android:textSize="16sp"
+        android:id="@+id/restart_btn"
+        android:padding="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/try_again"
+        android:backgroundTint="@color/tcu_purple"
+        app:cornerRadius="0dp"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="progress">progress</string>
+    <string name="flag_image">Flag image</string>
+    <string name="submit">Submit</string>
+    <string name="what_country_does_this_flag_belong_to">What country does this flag belong to</string>
+    <string name="welcome">Welcome</string>
+    <string name="country_flag_quiz">Country Flag Quiz</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="name">Name</string>
+    <string name="start">Start</string>
+    <string name="result">Result</string>
+    <string name="score">Score</string>
+    <string name="try_again">Try again</string>
+    <string name="good_result">Good Result</string>
+    <string name="result_image">Result image</string>
+    <string name="good_job_message">Good job, %1$s!</string>
+    <string name="good_luck_message">Good luck next time, %1$s!</string>
+    <string name="score_message">Your score is %1$d out of %2$d</string>
+    <string name="next_question_button">Go to next question</string>
+    <string name="finish_button">Finish</string>
+</resources>
